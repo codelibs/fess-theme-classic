@@ -71,7 +71,7 @@
 							<c:if test="${doc.content_length!=null && doc.content_length!=''}">
 								<span class="${hasInfo ? 'd-sm-inline' : 'd-none d-sm-inline'}">-</span>
 								<c:set var="hasInfo" value="true" />
-								<la:message key="labels.search_result_size" arg0="${fe:formatNumber(doc.content_length)}" />
+								<la:message key="labels.search_result_size" arg0="${fe:formatFileSize(doc.content_length)}" />
 							</c:if>
 						</cite>
 					</small>
