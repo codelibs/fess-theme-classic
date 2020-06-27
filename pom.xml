@@ -5,7 +5,7 @@
 	<artifactId>fess-theme-classic</artifactId>
 	<packaging>jar</packaging>
 	<name>CodeLibs Classic Theme</name>
-	<version>13.8.0-SNAPSHOT</version>
+	<version>13.8.0</version>
 	<description />
 	<url>https://github.com/codelibs/fess-theme-classic</url>
 	<inceptionYear>2012</inceptionYear>
