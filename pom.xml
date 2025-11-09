@@ -4,7 +4,7 @@
 	<artifactId>fess-theme-classic</artifactId>
 	<packaging>jar</packaging>
 	<name>CodeLibs Classic Theme</name>
-	<version>14.0.1-SNAPSHOT</version>
+	<version>15.3.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:git@github.com:codelibs/fess-theme-classic.git</connection>
 		<url>scm:git:git@github.com:codelibs/fess-theme-classic.git</url>
@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>org.codelibs.fess</groupId>
 		<artifactId>fess-parent</artifactId>
-		<version>14.0.0</version>
+		<version>15.3.2</version>
 		<relativePath />
 	</parent>
 	<build>

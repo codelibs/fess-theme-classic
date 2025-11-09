@@ -235,7 +235,8 @@
 		<jsp:include page="footer.jsp" />
 	</la:form>
 	<input type="hidden" id="contextPath" value="${contextPath}" />
-	<script type="text/javascript" src="${fe:url('/js/classic/jquery-3.3.1.min.js')}"></script>
+	<script type="text/javascript" src="${fe:url('/js/classic/jquery-3.7.1.min.js')}"></script>
+	<script type="text/javascript" src="${fe:url('/js/classic/popper.min.js')}"></script>
 	<script type="text/javascript" src="${fe:url('/js/classic/bootstrap.min.js')}"></script>
 	<script type="text/javascript" src="${fe:url('/js/classic/suggestor.js')}"></script>
 	<script type="text/javascript" src="${fe:url('/js/classic/advance.js')}"></script>
