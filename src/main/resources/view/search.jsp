@@ -21,7 +21,7 @@
 	<jsp:include page="header.jsp" />
 	<main id="content" class="container-fluid">
 		<div id="subheader" class="row justify-content-between">
-			<div class="col-auto ml-2 mr-1 px-1 px-sm-3">
+			<div class="col-auto ms-2 me-1 px-1 px-sm-3">
 				<la:message key="labels.search_result_status"
 					arg0="${f:h(displayQuery)}" arg1="${f:h(allRecordCount)}"
 					arg2="${f:h(currentStartRecordNumber)}"

@@ -38,7 +38,7 @@
 					suffix="errors.front_suffix"
 				/>
 			</div>
-			<div class="form-group row mx-0 mb-2">
+			<div class="row mx-0 mb-2">
 				<label for="as_q" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 						key="labels.advance_search_must_queries"
 					/></label>
@@ -49,7 +49,7 @@
 					<!-- TODO -->
 				</div>
 			</div>
-			<div class="form-group row mx-0 mb-2">
+			<div class="row mx-0 mb-2">
 				<label for="as_epq" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 						key="labels.advance_search_phrase_query"
 					/></label>
@@ -60,7 +60,7 @@
 					<!-- TODO -->
 				</div>
 			</div>
-			<div class="form-group row mx-0 mb-2">
+			<div class="row mx-0 mb-2">
 				<label for="as_oq" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 						key="labels.advance_search_should_queries"
 					/></label>
@@ -71,7 +71,7 @@
 					<!-- TODO -->
 				</div>
 			</div>
-			<div class="form-group row mx-0 mb-2">
+			<div class="row mx-0 mb-2">
 				<label for="as_nq" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 						key="labels.advance_search_not_queries"
 					/></label>
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 			<div class="container-fluid m-0 p-2 advance-form-details">
-				<div class="form-group row mx-0 mb-2">
+				<div class="row mx-0 mb-2">
 					<label for="contentLang" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 							key="labels.index_lang"
 						/></label>
@@ -98,7 +98,7 @@
 						<!-- TODO -->
 					</div>
 				</div>
-				<div class="form-group row mx-0 mb-2">
+				<div class="row mx-0 mb-2">
 					<label for="as_filetype" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 							key="labels.advance_search_filetype"
 						/></label>
@@ -126,7 +126,7 @@
 						<!-- TODO -->
 					</div>
 				</div>
-				<div class="form-group row mx-0 mb-2">
+				<div class="row mx-0 mb-2">
 					<label for="as_occt" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 							key="labels.advance_search_occt"
 						/></label>
@@ -145,7 +145,7 @@
 						<!-- TODO -->
 					</div>
 				</div>
-				<div class="form-group row mx-0 mb-2">
+				<div class="row mx-0 mb-2">
 					<label for="contentSort" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 							key="labels.index_sort"
 						/></label>
@@ -203,7 +203,7 @@
 						<!-- TODO -->
 					</div>
 				</div>
-				<div class="form-group row mx-0 mb-2">
+				<div class="row mx-0 mb-2">
 					<label for="contentNum" class="col-lg-3 col-md-4 col-sm-5 col-12 col-form-label col-form-label-sm"><la:message
 							key="labels.index_num"
 						/></label>

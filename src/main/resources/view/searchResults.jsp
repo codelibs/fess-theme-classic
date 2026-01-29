@@ -103,7 +103,7 @@
 				<c:if test="${pageNumber != currentPageNumber}">
 					<li
 					<c:choose>
-						<c:when test="${pageNumber < currentPageNumber - 3 || pageNumber > currentPageNumber + 3}">class="d-none d-sm-inline"</c:when>
+						<c:when test="${pageNumber < currentPageNumber - 3 || pageNumber > currentPageNumber + 3}">class="d-none d-sm-inline-block"</c:when>
 						<c:otherwise>class="d-inline"</c:otherwise>
 					</c:choose>>
 					<la:link
@@ -126,12 +126,10 @@
 			<div class="input-group" role="search">
 				<la:text property="q" maxlength="1000" styleId="query"
 					styleClass="form-control form-control-sm" autocomplete="off" />
-				<span class="input-group-append">
-					<button type="submit" name="search" id="searchButton"
-						class="btn btn-sm btn-secondary">
-						<la:message key="labels.index_form_search_btn" />
-					</button>
-				</span>
+				<button type="submit" name="search" id="searchButton"
+					class="btn btn-sm btn-secondary">
+					<la:message key="labels.index_form_search_btn" />
+				</button>
 			</div>
 		</la:form>
 	</div>
